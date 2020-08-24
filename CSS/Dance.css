@@ -1,0 +1,260 @@
+body {
+    background-image: url('../Img/Dance/Background_Dance.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tables{
+      display: none;
+}
+
+.info_cards{
+    display: none;
+}
+
+#Artists{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#day_tables{
+    margin: 30px;
+}
+
+#ticketsButton {
+    background-color: #ad0c80; /* magenta */
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    font-family: "impact";
+    border-radius: 15px;
+    margin-bottom: 340px;
+}
+
+#ticketsButton:hover{
+    background-color: #910a6c; /* dark magenta */
+}
+
+.day_buttons{
+    background-color: white;
+    border: none;
+    color: grey;
+    margin: 10px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "impact";
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#artists_button{
+    margin-bottom: 80px;
+}
+
+.center_artists{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#martin{
+    background-image: url("http://localhost/Img/Dance/Background_martin.jpg");
+    width: 100%;
+    height: 900px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: bottom;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tickets_button_a{
+    position: relative;
+    text-align: center;
+    top: 290px;
+}
+
+.artists_image{
+    width: 472px;
+    height: 296px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.artists_left_image{
+    display: inline;
+    margin-right: 40px;
+}
+
+.artists_right_image{
+    display: inline;
+    margin-left: 40px;
+}
+
+.artists_row{
+    margin-top: 20px;
+    display:flex;
+}
+
+.artists_name{
+    font-size: 30px;
+    font-family: "impact";
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
+}
+
+.artists_image:hover>.artists_name{
+    font-size: 40px;
+}
+
+.artists_link{
+    text-decoration: none;
+}
+
+#OrderCard{
+    border-radius: 30px;
+    background-color: white;
+    display: none;
+    margin: 40px;
+    width: 700px;
+}
+
+.input_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.input_center{
+    justify-content: space-around;
+}
+
+.cardNumber{
+    font-size: 70px;
+    font-family: "Berlin Sans FB";
+    margin-left: 30px;
+}
+
+#ticketSelection{
+    font-size: 25px;
+    font-family: "Berlin Sans FB";
+}
+
+.cardDropDown{
+    font-size: 25px;
+    font-family: "Berlin Sans FB";
+    margin: 10px;
+}
+
+#dateDropDown{
+    width: 200px;
+    visibility: hidden;
+}
+
+#artistsDropDown{
+    width: 500px;
+    visibility: hidden
+}
+#addToList{
+    background-color: white;
+    font-family: "Berlin Sans FB";
+    font-size: 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #333333;
+    text-align: center;
+    margin: 10px;
+}
+
+#ticketBox{
+    font-family: "Berlin Sans FB";
+    font-size: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#ticketDescription{
+    width: 400px;
+}
+
+#ticketAmount{
+    width: 100px;
+}
+
+#ticketPrice{
+    width: 100px;
+}
+
+.amountBox{
+}
+
+#totalPrice{
+    margin: 10px 10px 50px 400px;
+}
+
+.cardButtons{
+    font-family: "Berlin Sans FB";
+    border-radius: 30px;
+    font-size: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: #333333;
+    width: 300px;
+    height: 80px;
+    margin: 10px 10px 30px 10px;
+}
+
+.info_cards{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+    opacity: 0.9;
+}
+
+.info_title{
+    color: purple;
+    font-family: "Berlin Sans FB";
+    margin: 20px;
+}
+
+.info_text{
+    color: hotpink;
+    font-family: "Berlin Sans FB";
+    margin: 30px;
+}
+
+.info_extra{
+    color: purple;
+    font-family: "Berlin Sans FB";
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

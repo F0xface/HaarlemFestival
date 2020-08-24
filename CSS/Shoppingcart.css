@@ -1,0 +1,159 @@
+#ticket_img{
+    width: 184px;
+    height: 106px;
+    margin-top: 20px;
+}
+
+#event_name{
+    margin: -95px 0 0 175px;
+}
+
+#start_time{
+    margin: 0 0 0 175px;
+}
+
+#amount{
+    margin:-26px 0 0 690px;
+}
+
+#Price{
+    margin: -23px 0 0 900px;
+}
+
+#event_name, #start_time{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#amount, #Price{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email_box{
+    width: 1920px;
+    height: 285px;
+    background-color: #949494;
+    margin-left: -8px;
+    margin-top: 125px;
+}
+
+#ideal{
+    margin-left: 400px;
+    width: 97px;
+    height: 97px;
+}
+
+#paypal{
+    width: 112px;
+    height: 112px;
+}
+
+#visa{
+    width: 123px;
+    height: 78px;
+}
+
+#american_express{
+    width: 93px;
+    height: 93px;
+}
+
+#mastercard{
+    width: 113px;
+    height: 88px;
+}
+
+#order_tickets{
+    position: absolute;
+    margin-top: 90px;
+    left: 1000px;
+    width: 350px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+    border: none;
+}
+
+#email_div, #emailrpt_div{
+    position: absolute;
+    left: 400px;
+}
+
+#email_div{
+    margin-top: 10px;
+}
+
+#emailrpt_div{
+    left: 367px;
+    margin-top: 55px;
+}
+
+#Total_Price {
+    color: white;
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+    padding-top: 10px;
+    margin: 0px 0 0 1020px;
+    font-weight: normal;
+}
+
+.shoppingintro{
+    height: 75px;
+    width: 1920px;
+    background-color: #949494;
+    color: white;
+    font-family: Impact;
+    font-size: 48px;
+    margin: 0px 0 0 -8px;
+}
+
+.shoppingintro p{
+    padding-top: 10px;
+    padding-left: 411px;
+}
+
+.ticket{
+    width: 1120px;
+    height: 150px;
+    margin: 0 auto 0 auto;
+    border: black solid 0.5px;
+}
+
+.empty_message{
+    font-family: Impact;
+    font-weight: normal;
+    margin: 0 0 0 400px;
+}
+
+.email{
+    width: 350px;
+    height: 30px;
+    font-size: 24px;
+}
+
+.email_lbl{
+    font-family: "Berlin Sans FB";
+    font-size: 24px;
+    color: white;
+}
+
+.banks{
+    margin-top: 60px;
+}
+
+.error{
+    color: red;
+    font-family: "Berlin Sans FB";
+    font-weight: normal;
+    font-size: 28px;
+    margin: 0 0 0 625px;
+}
+
+body{
+    margin: -8px 0 0 -8px;
+}

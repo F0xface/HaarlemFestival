@@ -1,0 +1,225 @@
+body {
+    background-image: url('../Img/Food/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner{
+    background-color: grey;
+    color: white;
+    font-family: "impact";
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+#restaurants{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+#restaurantDropDown{
+    display: none;
+}
+
+.restaurant_entity{
+    display: block;
+    justify-content: center;
+}
+
+.restaurant_half{
+    width: 560px;
+    height: 425px;
+    display: block;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+.restaurant_name{
+    font-family: impact;
+    color: black;
+    font-size: 50px;
+    margin: 25px;
+}
+
+.restaurant_cuisine{
+    font-family: "Berlin Sans FB";
+    color: black;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.stars{
+    margin: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+.info_link{
+    color: black;
+    padding: 15px;
+}
+
+.info_link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.info_res_button{
+    padding: 10px;
+    margin: 10px;
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#sorting_banner{
+    margin: auto;
+    max-width: 1120px;
+    text-align: center;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+}
+
+.sorting_buttons{
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.sorting_buttons:hover{
+    color: red;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#pop-up{
+    width: 40%;
+    margin-top: 3%;
+    border-radius: 50px;
+}
+
+#popupHeader{
+    font-family: "impact";
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#popupSubHeader{
+    font-family: "Berlin Sans FB";
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.DropDown{
+    width: 75%;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+#text{
+    height: 180px;
+}
+
+#submit{
+    width: 75%;
+    height: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid;
+}
+
+#confirmationScreen{
+    display: none;
+}
+
+#confirmationHeader{
+    font-family: Arial Bold;
+    font-size: 46px;
+    margin-top: 7%;
+}
+
+#totalFoodPrice{
+    font-family: Arial Regular;
+    font-size: 26px;
+    margin-top: 20%;
+}
+
+#confirmationText{
+    font-family: Arial Regular;
+    font-size: 16px;
+    margin-top: 20%;
+}
+
+.confirmationButtons{
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid;
+    margin-top: 2em;
+}
+
+#stay{
+    padding: 10px;
+    margin-right: 2em;
+}
+
+#goToCart{
+    padding: 10px 50px 10px 50px;
+}
+
+
+
+
+
+

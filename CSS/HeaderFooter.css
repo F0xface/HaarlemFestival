@@ -1,0 +1,100 @@
+#Logo{
+    width: 104px;
+    height: 69px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.shopping_cart{
+    width: 65px;
+    height: 65px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+nav, footer{
+    width: 100%;
+    height: 80px;
+    background: white;
+    z-index: 99;
+}
+
+nav{
+    position: fixed;
+}
+
+footer{
+    bottom: 0;
+}
+
+.hfList{
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hfList li{
+    display: inline;
+    margin-top: 40px;
+    word-spacing: 2em;
+}
+
+.header_button{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-family: "Impact";
+}
+
+.header_button:hover{
+    color: red;
+}
+
+#currentpage {
+    color: red;
+}
+
+#spacing{
+    height: 80px;
+    width: 100%;
+}
+
+.period {
+    margin-left: 1em;
+    margin-bottom: 0.75em;
+}
+
+footer ul {
+    margin-left: 200px;
+}
+
+.follow
+{
+    color: black;
+    font-size: 26px;
+    font-family: "Impact";
+    margin-right: 0.75em;
+}
+
+#banner{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 52px;
+}
+
+#bannerwrap{
+    background-color: #6C6C71;
+    height: 80px;
+    padding-top: 0.5em;
+}
+
+.right_side{
+    float: right;
+    margin-right: 350px;
+    margin-top: 1em;
+}
+
+#navJazzPage{
+    pointer-events: none;
+}

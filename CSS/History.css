@@ -1,0 +1,340 @@
+#Friday, #Saturday, #Sunday, #confirmCart{
+    display: none;
+}
+
+#btn_Thursday{
+    margin-left: 440px;
+}
+
+#btn_Friday, #btn_Saturday, #btn_Sunday{
+    margin-left: 35px;
+}
+
+#gettickets, #gotocart{
+    width: 340px;
+    float: left;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+#gettickets{
+    margin-left: 190px;
+}
+
+#gotocart{
+    margin-left: 420px;
+}
+
+#SelectDate{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#SelectTime{
+    margin: 20px 0 20px 20px;
+}
+
+#English, #Dutch, #Chinese{
+    margin-left: 205px;
+}
+
+#amount, #familyamount{
+    position: absolute;
+    width: 50px;
+    left: 475px;
+}
+
+#familyamount{
+    top: 530px;
+}
+
+#familyamount_lbl{
+    margin: 15px 0 0 200px;;
+}
+
+#first_euro{
+    left: 535px;
+    top: 444px;
+}
+
+#second_euro{
+    left: 535px;
+    top: 526px;
+}
+
+#third_euro{
+    left: 535px;
+    top: 615px
+}
+
+#singleprice{
+    top: 445px;
+}
+
+#familyprice{
+    top: 526px;
+}
+
+#totalprice{
+    top: 615px;
+}
+
+#totalline{
+    width: 100px;
+    margin-right: 220px;
+    margin-top: -5px;
+}
+
+#normalmin, #familymin{
+    margin-left: 65px;
+}
+
+.Molen{
+    position: relative;
+    z-index: -1;
+    width: 1920px;
+    height: 860px;
+}
+
+.Map{
+    width: 834px;
+    height: 528px;
+    border-radius: 40px;
+    margin: 42px 0 0 100px;
+}
+
+.introduction{
+    top: 250px;
+    right: 20px;
+    position: absolute;
+    width: 730px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+}
+
+.introduction h1{
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.introduction p{
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.map_des{
+    margin-top: -530px;
+    right: 90px;
+    position: absolute;
+    width: 823px;
+    height: 528px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+}
+
+.map_des h1{
+    font-family: Impact;
+    font-size: 36px;
+    text-align: center;
+}
+
+.map_des a{
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    z-index: 99;
+}
+
+.program{
+    width: 1710px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    margin: 50px 0 40px 100px;
+    padding-bottom: 170px;
+}
+
+.program h1{
+    font-family: Impact;
+    font-size: 36px;
+    text-align: center;
+    height: 20px;
+}
+
+.program p{
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+    text-align: center;
+    width: 1325px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.program button{
+    width: 180px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    border: none;
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+
+}
+
+.tour_table{
+    border-collapse: collapse;
+    margin: 40px 0 0 420px;
+}
+
+.tour_table, .tour_table th, .tour_table td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Berlin Sans FB";
+    font-weight: normal;
+}
+
+.tour_time, .tour_seats{
+    width: 200px;
+}
+
+.tour_language{
+    width: 460px;
+}
+
+.tour_time, .tour_language, .tour_seats{
+    height: 66px;
+    background-color: black;
+    color: white;
+}
+
+.order_tickets{
+    position: absolute;
+    top: 1570px;
+    left: 533px;
+    width: 860px;
+    height: 800px;
+    background-color: white;
+    border-radius: 40px;
+    visibility: hidden;
+}
+
+.order_tickets h1{
+    font-weight: normal;
+    font-size: 48px;
+    font-family: Impact;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.order_tickets select{
+    width: 330px;
+    height: 40px;
+    font-size: 24px;
+    font-family: "Berlin Sans FB";
+}
+
+.order_tickets p{
+    position: absolute;
+    left: 475px;
+    display: inline-block;
+    font-size: 28px;
+    font-family: "Berlin Sans FB";
+    margin: 0 0 0 0;
+}
+
+.order_tickets .amount_select{
+    font-weight: normal;
+    display: inline-block;
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+    margin-left: 200px;
+}
+
+.order_tickets .seat_text{
+    margin-left: 50px;
+}
+
+.selectlanguage{
+    font-family: "Berlin Sans FB";
+    font-size: 28px;
+}
+
+.datetime{
+    font-size: 28px;
+    font-family: "Berlin Sans FB";
+    margin-left: 210px;
+}
+
+.plusminbtn, .ticketamount{
+    width: 45px;
+    height: 33px;
+    border-radius: 5px;
+    border: black solid;
+    border-width: 0.5px;
+    background-color: white;
+    color: black;
+}
+
+.ticketamount{
+    height: 30px;
+    text-align: center;
+}
+
+.order_tickets .price{
+    left: 550px;
+}
+
+.familyselector{
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    top: 525px;
+    width: auto;
+}
+
+.lastline{
+    margin-top: 80px;
+}
+
+.order_tickets .totaltxt{
+    margin-top: 4px;
+    margin-left: -10px;
+}
+
+.endbuy{
+    width: 220px;
+    height: 60px;
+    border: black solid 0.5px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 28px;
+    font-family: "Berlin Sans FB";
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+hr{
+    width: 680px;
+    border: black solid 0.5px;
+}
+
+td{
+    height: 40px;
+}
+
+body{
+    background-image: url("../img/History/History_Background.jpg");
+    background-attachment: fixed;
+    margin: 0;
+}
+

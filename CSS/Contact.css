@@ -1,0 +1,54 @@
+body{
+    background-image: url("../img/Index/Background.png");
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+
+.embed-container{
+    background: rgba(255, 255, 255, .5);
+    font-family: 'Berlin Sans FB Standaard', 'Berlin Sans FB';
+    position: relative;
+    padding-bottom: 5px;
+    overflow: hidden;
+    max-width: 75%;
+    height: 1100px;
+    top:100px;
+    left:13%;
+}
+
+.embed-container h1{
+    position: relative;
+    top:45px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    right: 295px;
+}
+
+.embed-container p{
+    position: relative;
+    top: 130px;
+    font-size: 28px;
+    text-align: center;
+    right:-325px;
+}
+
+.formpadding{
+    padding-left: 30%;
+    padding-top: 100px;
+    text-align:center
+}
+
+.h1Contact{
+    left:0px;
+    top:-1000px;
+    position: absolute;
+}
+.geninfo{
+    left:0px;
+}
+.geninfo2{
+    left: 0px;
+}

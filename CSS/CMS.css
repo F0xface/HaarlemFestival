@@ -1,0 +1,21 @@
+#volunteerApply{
+    float: left;
+    padding: 50px;
+    display: block;
+    width: 40%;
+}
+
+#volunteerLogin{
+    padding: 50px;
+    float: right;
+    display: block;
+    width: 40%
+}
+
+#entireForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}

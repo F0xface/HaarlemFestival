@@ -1,0 +1,66 @@
+body {
+    background-image: url('../Img/Index/Background.png');
+}
+
+#program_card{
+    background-color: white;
+    margin: 50px;
+    border-radius: 30px;
+    opacity: 0.9;
+    display: block;
+}
+
+#push{
+    height: 1px;
+}
+
+#program_card h1, #program_card h3{
+    margin: 40px;
+}
+
+
+#schedule_buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+#schedule{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.date_buttons{
+    font-size: 20px;
+    font-family: "Berlin Sans FB";
+    padding: 40px;
+    margin: 20px;
+    border-radius: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.event{
+    height: 200px;
+    width: 300px;
+    background-color: #333333;
+    border-radius: 20px 100px 100px 20px;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.event p{
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+
